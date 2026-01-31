@@ -16,6 +16,7 @@ export default function Requirement() {
         <svg 
           className="req-svg-wave wave-bg" 
           viewBox="0 0 564 1280" 
+          preserveAspectRatio="xMinYMin slice"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path 
@@ -32,6 +33,7 @@ export default function Requirement() {
         <svg 
           className="req-svg-wave wave-top" 
           viewBox="0 0 564 1280" 
+          preserveAspectRatio="xMinYMin slice"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path 
@@ -51,13 +53,13 @@ export default function Requirement() {
       <div className="req-decoration req-purple-circle"></div>
       
       <div className="w-100 p-0 m-0 overflow-hidden">
-        <div className="row justify-content-center m-0 py-5 g-0">
+        <div className="row justify-content-center m-0 g-0">
           <div className="col-12 text-center">
             <h2 className="req-title-main">Create Your Own Requirement</h2>
           </div>
         </div>
 
-        <div className="row align-items-center position-relative m-0 pb-5 g-0">
+        <div className="row align-items-center position-relative m-0 ps-5 g-0">
           
           {/* Left Column: Illustration */}
           <div className="col-12 col-lg-6 position-relative">

@@ -5,6 +5,7 @@ import ValueProposition from "./componenets/ValueProposition";
 import Skills from "./componenets/Skills";
 import Requirement from "./componenets/Requirement";
 import Testimonials from "./componenets/Testimonials";
+import Footer from "./componenets/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Skills></Skills>
         <Requirement></Requirement>
         <Testimonials></Testimonials>
+        <Footer></Footer>
       </div>
     </>
   );
